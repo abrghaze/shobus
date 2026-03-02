@@ -1,33 +1,5 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
-{
+﻿{
   "sections": {
-    "related-products": {
-      "type": "related-products",
-      "disabled": true,
-      "settings": {
-        "heading": "You may also like",
-        "heading_size": "h2",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "color_scheme": "scheme-1",
-        "image_ratio": "square",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "columns_mobile": "2",
-        "padding_top": 36,
-        "padding_bottom": 28
-      }
-    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -45,11 +17,11 @@
           "type": "rating_stars",
           "settings": {
             "rating": 4.8,
-            "star_color": "#f5c05c",
+            "star_color": "#c9a96e",
             "bg_stars_style": "full",
-            "bg_star_color": "#ececec",
+            "bg_star_color": "#e8e4dd",
             "label": "(345 Reviews)",
-            "size": 12,
+            "size": 14,
             "alignment": "flex-start",
             "margin_top": 0,
             "margin_bottom": 12
@@ -61,7 +33,7 @@
             "layout": "price_second",
             "price_color": "text",
             "compare_price_color": "accent-1",
-            "hide_sale_badge": true,
+            "hide_sale_badge": false,
             "margin_top": 15,
             "margin_bottom": 15
           }
@@ -80,7 +52,7 @@
         "emoji_benefits_xFGiTn": {
           "type": "emoji_benefits",
           "settings": {
-            "benefits": "<h5>✨ Exceptional Performance<br/></h5><h5>🌈 Eye-Catching Design Features<br/></h5><h5>😌 User-Friendly and Relaxing to Use</h5>",
+            "benefits": "<h5>\u2713 Premium Build Quality \u2014 Built to Last</h5><h5>\u2713 Crystal-Clear Sound \u2014 Studio-Grade Audio</h5><h5>\u2713 Portable Design \u2014 Music Wherever You Go</h5>",
             "margin_top": 15,
             "margin_bottom": 15
           }
@@ -89,10 +61,10 @@
           "type": "quantity_selector",
           "settings": {
             "enable_quantity_discounts": true,
-            "headline": "Bundle Deals",
-            "preselected": "option_3",
+            "headline": "Bundle & Save",
+            "preselected": "option_1",
             "display_badge": "option_3",
-            "badge_text": "Most Popular",
+            "badge_text": "Best Value",
             "enable_variant_selectors": true,
             "color_scheme": "outline-button",
             "option_1_quantity": 2,
@@ -134,34 +106,16 @@
             "skip_cart": false,
             "uppercase_text": false,
             "enable_custom_color": false,
-            "custom_color": "#50e6f5",
+            "custom_color": "#1a1a2e",
             "margin_top": 0,
             "margin_bottom": 0,
             "alignment": "center"
           }
         },
-        "sticky_atc_xbBkLM": {
-          "type": "sticky_atc",
-          "disabled": true,
-          "settings": {
-            "function": "add_to_cart",
-            "display_when": "after_scroll",
-            "color_scheme": "background-1",
-            "button_label": "Add to cart",
-            "enable_custom_btn_color": true,
-            "custom_btn_color": "#243d00",
-            "show_price_badge": true,
-            "show_variant_picker": true,
-            "desktop_show_title": true,
-            "desktop_show_price": true,
-            "mobile_show_title": false,
-            "mobile_show_price": false
-          }
-        },
         "payment_badges_NNJJTd": {
           "type": "payment_badges",
           "settings": {
-            "enabled_payment_types": "american_express, apple_pay, bitcoin, google_pay, ideal, jcb, klarna, litecoin, maestro, master, paypal, shopify_pay, sofort, unionpay, visa",
+            "enabled_payment_types": "american_express, apple_pay, google_pay, klarna, master, paypal, shopify_pay, visa",
             "margin_top": 6,
             "margin_bottom": 6
           }
@@ -172,9 +126,9 @@
             "display_icon": true,
             "icon_size": "small",
             "icon_alignment": "middle",
-            "message": "<p>Get it between <strong>[start_date]</strong> and <strong>[end_date]</strong>.</p>",
-            "min_shipping_days": 10,
-            "max_shipping_days": 20,
+            "message": "<p>Estimated delivery: <strong>[start_date]</strong> \u2013 <strong>[end_date]</strong></p>",
+            "min_shipping_days": 7,
+            "max_shipping_days": 14,
             "date_format": "day_mm_dd",
             "days_labels": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday",
             "months_labels": "January, February, March, April, May, June, July, August, September, October, November, December",
@@ -186,14 +140,14 @@
           "type": "reviews",
           "settings": {
             "display_stars": true,
-            "star_color": "#ffcc00",
+            "star_color": "#c9a96e",
             "avatar_alignment": "top",
-            "author_1": "Valeriia",
-            "text_1": "<p>I couldn’t be happier with my experience at TechWorld Electronics! The staff was incredibly knowledgeable and helped me choose the perfect laptop for my work and gaming needs. The prices were competitive, and the quality of the products exceeded my expectations. I’ll definitely be returning for all my electronics needs!</p>",
-            "author_2": "Yuval",
-            "text_2": "<p>I couldn’t be happier with my experience at TechWorld Electronics! The staff was incredibly knowledgeable and helped me choose the perfect laptop for my work and gaming needs. The prices were competitive, and the quality of the products exceeded my expectations. I’ll definitely be returning for all my electronics needs!</p>",
-            "author_3": "Alex",
-            "text_3": "<p>I couldn’t be happier with my experience at TechWorld Electronics! The staff was incredibly knowledgeable and helped me choose the perfect laptop for my work and gaming needs. The prices were competitive, and the quality of the products exceeded my expectations. I’ll definitely be returning for all my electronics needs!</p>",
+            "author_1": "Sarah L.",
+            "text_1": "<p>The sound quality blew me away for such a compact device. I\u2019ve been using it every day for the past month and the battery still lasts all day. Fantastic build quality \u2014 feels premium in hand. Highly recommended!</p>",
+            "author_2": "Marcus T.",
+            "text_2": "<p>Bought this for my partner as a gift. The retro design is gorgeous and the Bluetooth pairs instantly. We ended up ordering a second one for the kitchen. Shipping was quick and packaging was excellent.</p>",
+            "author_3": "Jessica R.",
+            "text_3": "<p>I\u2019ve tried several portable speakers and this one stands out. Clean sound, great bass response, and it looks beautiful on my desk. Customer support was also very helpful when I had a setup question.</p>",
             "margin_top": 18,
             "margin_bottom": 18
           }
@@ -207,7 +161,6 @@
         "emoji_benefits_xFGiTn",
         "quantity_selector",
         "buy_buttons",
-        "sticky_atc_xbBkLM",
         "payment_badges_NNJJTd",
         "estimated_shipping_jccxdG",
         "reviews_wbqVgr"
@@ -239,7 +192,7 @@
         "trust_badge_position": "top-right",
         "trust_badge_size": "small",
         "mobile_padding_top": 0,
-        "mobile_padding_bottom": 100,
+        "mobile_padding_bottom": 36,
         "desktop_padding_top": 32,
         "desktop_padding_bottom": 32
       }
@@ -250,27 +203,27 @@
         "collapsible_row_GgAVt4": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Product Features",
+            "heading": "Product Specifications",
             "icon": "none",
-            "row_content": "<h5>Packed with cutting-edge features to make your daily tasks easier, this product combines functionality with sleek design for a seamless experience.</h5><p></p>",
+            "row_content": "<p><strong>Connectivity:</strong> Bluetooth 5.0 with 10m range<br><strong>Battery:</strong> Up to 12 hours playback<br><strong>Drivers:</strong> 45mm full-range driver<br><strong>Weight:</strong> 280g (ultra-portable)<br><strong>Charging:</strong> USB-C fast charging</p>",
             "page": "test"
           }
         },
         "collapsible_row_6Nmk66": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How to Use",
+            "heading": "Shipping & Returns",
             "icon": "none",
-            "row_content": "<h5>Simple and intuitive to use. Just follow the included instructions, and you'll be up and running in no time.</h5><p></p>",
+            "row_content": "<p><strong>Shipping:</strong> Free standard shipping on orders over $50. Express shipping available.<br><strong>Returns:</strong> 30-day hassle-free return policy. If you\u2019re not completely satisfied, contact us for a full refund.<br><strong>Warranty:</strong> 1-year manufacturer warranty included.</p>",
             "page": ""
           }
         },
         "collapsible_row_4pf4pe": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Why You'll Love It",
+            "heading": "Care & Maintenance",
             "icon": "none",
-            "row_content": "<h5>Designed to enhance your lifestyle, this product is reliable, efficient, and built to last. Whether for work or leisure, it’s a perfect fit for your needs.</h5>",
+            "row_content": "<p>Clean with a soft, dry cloth. Avoid exposure to water or extreme temperatures. Store in a cool, dry place when not in use. Charge fully before first use for optimal battery performance.</p>",
             "page": ""
           }
         }
@@ -282,70 +235,23 @@
       ],
       "settings": {
         "caption": "",
-        "heading": "",
+        "heading": "Product Details",
         "heading_size": "h2",
-        "heading_alignment": "center",
+        "heading_alignment": "left",
         "layout": "none",
         "color_scheme": "background-1",
-        "container_color_scheme": "inverse",
+        "container_color_scheme": "background-1",
         "open_first_collapsible_row": true,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
         "padding_top": 36,
         "padding_bottom": 36,
-        "custom_colors_background": "#58d51d",
+        "custom_colors_background": "#ffffff",
         "custom_gradient_background": "",
-        "custom_colors_text": "#2e2a39",
-        "custom_contaner_colors_background": "#20a3df",
+        "custom_colors_text": "#1a1a2e",
+        "custom_contaner_colors_background": "#f8f7f4",
         "custom_container_gradient_background": "",
-        "custom_contaner_colors_text": "#dd1d1d"
-      }
-    },
-    "rich_text_EpLR7p": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_UYW9Am": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Why You’ll Love It</p>",
-            "heading_size": "h2"
-          }
-        },
-        "text_AmgKAq": {
-          "type": "text",
-          "settings": {
-            "text": "<p>This product seamlessly blends functionality and style, offering the perfect solution for your modern lifestyle. Packed with innovative features, durable design, and user-friendly functionality, it’s tailored to meet your everyday needs. Whether it’s work, play, or staying connected, this gadget simplifies your tasks and enhances your experience.</p>"
-          }
-        },
-        "button_xMrFWR": {
-          "type": "button",
-          "settings": {
-            "button_label": "",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_UYW9Am",
-        "text_AmgKAq",
-        "button_xMrFWR"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "custom",
-        "full_width": true,
-        "padding_top": 56,
-        "padding_bottom": 72,
-        "custom_colors_background": "#000000",
-        "custom_gradient_background": "",
-        "custom_colors_text": "#ffffff",
-        "custom_colors_solid_button_background": "#ffffff",
-        "custom_colors_solid_button_text": "#ffffff"
+        "custom_contaner_colors_text": "#1a1a2e"
       }
     },
     "ds_comparison_table_xaDNwU": {
@@ -354,7 +260,7 @@
         "row_Ey9D8Q": {
           "type": "row",
           "settings": {
-            "benefit": "High-quality craftsmanship and durability",
+            "benefit": "Premium build quality and materials",
             "us": true,
             "others": false
           }
@@ -362,7 +268,7 @@
         "row_DBRRnB": {
           "type": "row",
           "settings": {
-            "benefit": "Compact and travel-friendly",
+            "benefit": "Compact and travel-friendly design",
             "us": true,
             "others": true
           }
@@ -370,7 +276,7 @@
         "row_K9hQb8": {
           "type": "row",
           "settings": {
-            "benefit": "Everyday-enhancing features",
+            "benefit": "30-day money-back guarantee",
             "us": true,
             "others": false
           }
@@ -378,7 +284,7 @@
         "row_NCqEN4": {
           "type": "row",
           "settings": {
-            "benefit": "Trusted by customers and built to last",
+            "benefit": "Dedicated customer support team",
             "us": true,
             "others": false
           }
@@ -391,41 +297,59 @@
         "row_NCqEN4"
       ],
       "settings": {
-        "title": "Be Sure of Your Choice",
+        "title": "Why Choose Us",
         "heading_size": "h2",
-        "text": "<p>This product is designed with precision and reliability, delivering top-notch performance and advanced features that set it apart. Backed by excellent reviews and a commitment to quality, it's the perfect choice for work, play, or everyday convenience. Invest in a product that combines innovation, durability, and user satisfaction.</p>",
+        "text": "<p>We stand behind every product we sell. Our commitment to quality, fast shipping, and responsive support sets us apart from the competition.</p>",
         "button_label": "",
         "link": "",
         "button_style_secondary": false,
         "color_scheme": "custom",
         "layout": "table_second",
         "benefit_color_scheme": "background-1",
-        "checkmark_color": "#7cbf1e",
+        "checkmark_color": "#2d8a4e",
         "icon_cells_color_scheme": "background-1",
-        "us_label": "Our brand",
-        "us_label_size": 12,
+        "us_label": "Our Brand",
+        "us_label_size": 14,
         "logo_width": 90,
         "mobile_logo_width": 60,
         "others_label": "Others",
-        "others_label_size": 12,
+        "others_label_size": 14,
         "others_logo_width": 90,
         "others_mobile_logo_width": 60,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "custom_colors_background": "#f3f3f3",
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "custom_colors_background": "#f8f7f4",
         "custom_gradient_background": "",
-        "custom_colors_text": "#2e2a39",
-        "custom_colors_solid_button_background": "#ffffff",
-        "custom_colors_solid_button_text": "#b71cec",
-        "custom_colors_outline_button": "#34dd1d"
+        "custom_colors_text": "#1a1a2e",
+        "custom_colors_solid_button_background": "#1a1a2e",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#1a1a2e"
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": false,
+      "settings": {
+        "heading": "You May Also Like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 48,
+        "padding_bottom": 48
       }
     }
   },
   "order": [
-    "related-products",
     "main",
     "collapsible_content_VV38cX",
-    "rich_text_EpLR7p",
-    "ds_comparison_table_xaDNwU"
+    "ds_comparison_table_xaDNwU",
+    "related-products"
   ]
 }

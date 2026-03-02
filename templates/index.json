@@ -1,13 +1,4 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
-{
+﻿{
   "sections": {
     "ds_slideshow_jhiiyq": {
       "type": "ds-slideshow",
@@ -16,16 +7,16 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/banner1.jpg",
-            "heading": "Play Your World",
+            "heading": "Premium Sound, Portable Design",
             "heading_size": "h1",
-            "subheading": "Unleash crisp, clear sound in the palm of your hand. The ultimate portable music experience awaits.",
+            "subheading": "Experience crystal-clear audio engineered for your lifestyle. Discover our handpicked collection of portable speakers.",
             "button_label": "Shop Now",
             "link": "shopify://products/mini-retro-white-noise-bluetooth-speaker",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
             "text_alignment": "center",
-            "image_overlay_opacity": 40,
+            "image_overlay_opacity": 45,
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
@@ -34,16 +25,16 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/banner2.jpg",
-            "heading": "Music on the Move",
+            "heading": "Engineered for Every Moment",
             "heading_size": "h1",
-            "subheading": "Portable, stylish, and powerful—your soundtrack, wherever life takes you.",
-            "button_label": "Shop Now",
+            "subheading": "From morning routines to outdoor adventures \u2014 our speakers deliver rich, immersive sound wherever you go.",
+            "button_label": "Explore Collection",
             "link": "shopify://products/mini-retro-white-noise-bluetooth-speaker",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
             "text_alignment": "center",
-            "image_overlay_opacity": 30,
+            "image_overlay_opacity": 40,
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
@@ -55,13 +46,73 @@
       ],
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "small",
+        "slide_height": "medium",
         "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
+        "auto_rotate": true,
+        "change_slides_speed": 6,
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand",
         "color_scheme": "background-1"
+      }
+    },
+    "ds_icon_bar_HaUALW": {
+      "type": "ds-icon-bar",
+      "blocks": {
+        "column_4zRAFa": {
+          "type": "column",
+          "settings": {
+            "icon": "truck",
+            "title": "Free Shipping",
+            "text": "<p>On all orders over $50. Fast, reliable delivery right to your door.</p>"
+          }
+        },
+        "column_KRBcLg": {
+          "type": "column",
+          "settings": {
+            "icon": "shield",
+            "title": "30-Day Guarantee",
+            "text": "<p>Not satisfied? Return within 30 days for a full refund. No questions asked.</p>"
+          }
+        },
+        "column_wbHVEM": {
+          "type": "column",
+          "settings": {
+            "icon": "headset",
+            "title": "Expert Support",
+            "text": "<p>Our dedicated team is here to help you via email and chat, 7 days a week.</p>"
+          }
+        },
+        "column_aHTPij": {
+          "type": "column",
+          "settings": {
+            "icon": "lock",
+            "title": "Secure Checkout",
+            "text": "<p>Your payment information is encrypted and protected with SSL technology.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "column_4zRAFa",
+        "column_KRBcLg",
+        "column_wbHVEM",
+        "column_aHTPij"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "text": "",
+        "icon_size": "small",
+        "columns_desktop": 4,
+        "icon_color": "accent-2",
+        "background_style": "none",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#1a1a2e"
       }
     },
     "multirow_ftq6YR": {
@@ -71,10 +122,10 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/homepage1.jpg",
-            "caption": "",
+            "caption": "PORTABLE AUDIO",
             "heading": "Your Music, Anywhere, Anytime",
-            "text": "<h4>Experience the freedom of music on the go! Our portable music player is lightweight, sleek, and packed with features like long battery life, crystal-clear audio, and ample storage. Whether you're working out, traveling, or relaxing, this is your perfect music companion.</h4>",
-            "button_label": "Buy now",
+            "text": "<p>Experience the freedom of music on the go. Our portable speaker is lightweight, sleek, and packed with features \u2014 long battery life, crystal-clear audio, and premium build quality. Your perfect music companion.</p>",
+            "button_label": "Shop Now",
             "button_link": "shopify://products/mini-retro-white-noise-bluetooth-speaker"
           }
         },
@@ -82,10 +133,10 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/homepage2.jpg",
-            "caption": "",
+            "caption": "POWERFUL PERFORMANCE",
             "heading": "Small Device, Big Sound",
-            "text": "<h4>Don't let its size fool you—our portable music player delivers powerful sound and stunning clarity. With customizable playlists and support for all major formats, it's designed for audiophiles and casual listeners alike. Upgrade your listening experience today!</h4>",
-            "button_label": "Buy now",
+            "text": "<p>Don\u2019t let the size fool you \u2014 our portable speaker delivers powerful, room-filling sound with stunning clarity. Support for all major Bluetooth codecs, designed for audiophiles and casual listeners alike.</p>",
+            "button_label": "Learn More",
             "button_link": "shopify://products/mini-retro-white-noise-bluetooth-speaker"
           }
         },
@@ -93,10 +144,10 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/homepage3.webp",
-            "caption": "",
-            "heading": "Rediscover Your Favorite Tunes",
-            "text": "<h4>Bring back the joy of personal music with our portable player. Designed with an intuitive interface and premium build, it fits right into your pocket or lifestyle. Perfect for everyday adventures, this device makes every moment sound better.</h4>",
-            "button_label": "Buy now",
+            "caption": "PREMIUM QUALITY",
+            "heading": "Crafted With Care",
+            "text": "<p>Every product in our collection is built with premium materials and meticulous attention to detail. From the intuitive controls to the refined finish, quality is in every element.</p>",
+            "button_label": "Discover More",
             "button_link": "shopify://products/mini-retro-white-noise-bluetooth-speaker"
           }
         }
@@ -108,60 +159,73 @@
       ],
       "settings": {
         "image_height": "adapt",
-        "desktop_image_width": "small",
+        "desktop_image_width": "medium",
         "heading_size": "h2",
         "text_style": "body",
         "button_style": "secondary",
         "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
+        "desktop_content_alignment": "left",
         "image_layout": "alternate-left",
-        "section_color_scheme": "scheme-68ab2610-ae84-4df1-8530-c2146566684a",
-        "row_color_scheme": "scheme-3",
-        "mobile_content_alignment": "center",
-        "padding_top": 32,
-        "padding_bottom": 32
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 48,
+        "padding_bottom": 48
       }
     },
-    "ds_horizontal_ticker_Tfpimk": {
-      "type": "ds-horizontal-ticker",
+    "ds_testimonials_F4dxEV": {
+      "type": "ds-testimonials",
       "blocks": {
-        "text_krtTHy": {
-          "type": "text",
+        "column_94mA9b": {
+          "type": "column",
           "settings": {
-            "title": "Seasonal Sale"
+            "title": "Exceeded My Expectations",
+            "text": "<p>The sound quality is incredible for such a compact speaker. I use it daily during my morning routine and when I\u2019m working out. Easily the best portable speaker I\u2019ve owned.</p>",
+            "author": "Sarah L."
           }
         },
-        "text_EDEaTP": {
-          "type": "text",
+        "column_B6D3xg": {
+          "type": "column",
           "settings": {
-            "title": "Seasonal Sale"
+            "title": "Perfect Gift Purchase",
+            "text": "<p>Bought this as a gift and ended up ordering one for myself. The retro design is charming and the Bluetooth connection is rock-solid. Fast shipping too \u2014 arrived before the estimated date.</p>",
+            "author": "Daniel M."
           }
         },
-        "text_PLWHrP": {
-          "type": "text",
+        "column_geRhPq": {
+          "type": "column",
           "settings": {
-            "title": "Seasonal Sale"
+            "title": "Outstanding Build Quality",
+            "text": "<p>You can tell this is a well-made product the moment you hold it. The materials feel premium and the battery lasts all day. Customer service was also very responsive when I had a question.</p>",
+            "author": "Emily R."
           }
         }
       },
       "block_order": [
-        "text_krtTHy",
-        "text_EDEaTP",
-        "text_PLWHrP"
+        "column_94mA9b",
+        "column_B6D3xg",
+        "column_geRhPq"
       ],
       "settings": {
-        "speed": 3,
-        "text_spacing": 1.5,
-        "text_size": "1.75",
-        "italic_text": false,
-        "uppercase_text": false,
-        "bold_text": false,
-        "color_scheme": "custom",
-        "padding_top": 16,
-        "padding_bottom": 16,
-        "custom_colors_background": "#50e6f5",
+        "title": "What Our Customers Say",
+        "heading_size": "h2",
+        "text": "",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "slider_preview": true,
+        "column_alignment": "center",
+        "show_stars": true,
+        "stars_color": "#c9a96e",
+        "show_quotes": true,
+        "quotes_color_scheme": "scheme-1",
+        "background_style": "primary",
+        "color_scheme": "scheme-1",
+        "padding_top": 56,
+        "padding_bottom": 56,
+        "custom_colors_background": "#f8f7f4",
         "custom_gradient_background": "",
-        "custom_colors_text": "#2e2a39"
+        "custom_colors_text": "#1a1a2e"
       }
     },
     "newsletter_aPCdW9": {
@@ -170,14 +234,14 @@
         "heading_TDCNxK": {
           "type": "heading",
           "settings": {
-            "heading": "Don't Miss Our Hot Deals!",
+            "heading": "Stay in the Loop",
             "heading_size": "h2"
           }
         },
         "paragraph_jCxPHJ": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Be the first to know about new collections and exclusive offers.</p>"
+            "text": "<p>Subscribe to get early access to new products, exclusive deals, and insider tips \u2014 delivered straight to your inbox.</p>"
           }
         },
         "email_form_enPNHt": {
@@ -193,68 +257,8 @@
       "settings": {
         "color_scheme": "scheme-4",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "ds_icon_bar_HaUALW": {
-      "type": "ds-icon-bar",
-      "blocks": {
-        "column_4zRAFa": {
-          "type": "column",
-          "settings": {
-            "icon": "star",
-            "title": "Innovative Design",
-            "text": "<h5>Our products combine nostalgic aesthetics with modern technology for a unique and practical experience.</h5>"
-          }
-        },
-        "column_KRBcLg": {
-          "type": "column",
-          "settings": {
-            "icon": "fire",
-            "title": "High-Quality Sound",
-            "text": "<h5>Enjoy clear, crisp audio with every use, whether it’s for relaxation, entertainment, or work.</h5>"
-          }
-        },
-        "column_wbHVEM": {
-          "type": "column",
-          "settings": {
-            "icon": "check_mark",
-            "title": "Multi Functional",
-            "text": "<h5>Perfect for any occasion—at home, outdoors, or on the go. We offer multifunctional products to meet all your needs.</h5>"
-          }
-        },
-        "column_aHTPij": {
-          "type": "column",
-          "settings": {
-            "icon": "chat_bubble",
-            "title": "User Satisfaction",
-            "text": "<h5>Your happiness is our priority. We offer reliable products backed by excellent support.</h5><p></p>"
-          }
-        }
-      },
-      "block_order": [
-        "column_4zRAFa",
-        "column_KRBcLg",
-        "column_wbHVEM",
-        "column_aHTPij"
-      ],
-      "settings": {
-        "title": "Why Choose Us?",
-        "heading_size": "h2",
-        "text": "",
-        "icon_size": "small",
-        "columns_desktop": 4,
-        "icon_color": "accent-2",
-        "background_style": "none",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 48,
-        "padding_bottom": 56,
-        "custom_colors_background": "#ffffff",
-        "custom_gradient_background": "",
-        "custom_colors_text": "#2e2a39"
+        "padding_top": 56,
+        "padding_bottom": 56
       }
     },
     "video_MjrBeT": {
@@ -271,87 +275,14 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
-    },
-    "ds_testimonials_F4dxEV": {
-      "type": "ds-testimonials",
-      "blocks": {
-        "column_94mA9b": {
-          "type": "column",
-          "settings": {
-            "title": "Innovative and Reliable",
-            "text": "<h4>This gadget is so handy and works flawlessly. It’s well-designed, reliable, and perfect for everyday use. Highly recommend!<br/></h4>",
-            "author": "Sarah L."
-          }
-        },
-        "column_B6D3xg": {
-          "type": "column",
-          "settings": {
-            "title": "Perfect for Tech Lovers",
-            "text": "<h4>I’m amazed by the quality and performance of this product. It’s easy to use, stylish, and delivers exactly what I needed. A great addition to my tech collection.<br/></h4>",
-            "author": "Daniel M."
-          }
-        },
-        "column_geRhPq": {
-          "type": "column",
-          "settings": {
-            "title": "Outstanding Value",
-            "text": "<h4>This product is worth every penny. The features are impressive, and it’s built to last. I use it every day and couldn’t be happier with my purchase.<br/></h4>",
-            "author": "Emily R."
-          }
-        }
-      },
-      "block_order": [
-        "column_94mA9b",
-        "column_B6D3xg",
-        "column_geRhPq"
-      ],
-      "settings": {
-        "title": "What Our Clients Say",
-        "heading_size": "h2",
-        "text": "",
-        "image_width": "full",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "slider_preview": true,
-        "column_alignment": "center",
-        "show_stars": false,
-        "stars_color": "#ffd700",
-        "show_quotes": false,
-        "quotes_color_scheme": "accent-2",
-        "background_style": "primary",
-        "color_scheme": "background-1",
-        "padding_top": 48,
-        "padding_bottom": 48,
-        "custom_colors_background": "#ffffff",
-        "custom_gradient_background": "",
-        "custom_colors_text": "#2e2a39"
-      }
-    },
-    "contact_form_6NFGbR": {
-      "type": "contact-form",
-      "settings": {
-        "heading": "Contact form",
-        "heading_size": "h1",
-        "button_full_width": true,
-        "color_scheme": "accent-1",
-        "padding_top": 12,
-        "padding_bottom": 56,
-        "custom_colors_background": "#ffffff",
-        "custom_gradient_background": "",
-        "custom_colors_text": "#000000",
-        "custom_colors_solid_button_background": "#6f7ca2",
-        "custom_colors_solid_button_text": "#ffffff"
-      }
     }
   },
   "order": [
     "ds_slideshow_jhiiyq",
-    "multirow_ftq6YR",
-    "ds_horizontal_ticker_Tfpimk",
-    "newsletter_aPCdW9",
     "ds_icon_bar_HaUALW",
-    "video_MjrBeT",
+    "multirow_ftq6YR",
     "ds_testimonials_F4dxEV",
-    "contact_form_6NFGbR"
+    "newsletter_aPCdW9",
+    "video_MjrBeT"
   ]
 }

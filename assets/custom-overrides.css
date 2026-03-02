@@ -1,0 +1,533 @@
+/* ============================================
+   PROFESSIONAL STORE OVERRIDES
+   Clean, modern, conversion-focused styling
+   ============================================ */
+
+/* ---------- GLOBAL TYPOGRAPHY ---------- */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h0, .h1, .h2, .h3, .h4, .h5 {
+  letter-spacing: -0.01em;
+}
+
+h1, .h1 {
+  font-weight: 700;
+}
+
+h2, .h2 {
+  font-weight: 600;
+}
+
+p {
+  line-height: 1.7;
+}
+
+/* ---------- ANNOUNCEMENT BAR ---------- */
+.announcement-bar {
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+}
+
+.announcement-bar__message {
+  font-weight: 500;
+}
+
+/* ---------- HEADER ---------- */
+.section-header {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
+}
+
+.header__heading-logo {
+  transition: transform 0.2s ease;
+}
+
+.header__heading-logo:hover {
+  transform: scale(1.02);
+}
+
+.header__icon:hover {
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+}
+
+/* Navigation links */
+.header__menu-item {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  transition: color 0.2s ease;
+}
+
+.list-menu__item--link {
+  position: relative;
+  font-weight: 500;
+}
+
+/* ---------- BUTTONS ---------- */
+.button,
+.shopify-challenge__button,
+.customer button,
+button.shopify-payment-button__button--unbranded {
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  transition: all 0.25s ease;
+  min-height: 4.8rem;
+}
+
+.button--primary {
+  position: relative;
+  overflow: hidden;
+}
+
+.button--primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(26, 26, 46, 0.2);
+}
+
+.button--secondary:hover {
+  transform: translateY(-1px);
+}
+
+/* Product page ATC button enhancement */
+.product-form__submit {
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  min-height: 5.4rem;
+  transition: all 0.25s ease;
+}
+
+.product-form__submit:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(26, 26, 46, 0.25);
+}
+
+/* ---------- HERO / SLIDESHOW ---------- */
+.banner__heading {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.banner__text span {
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  font-size: 1.15em;
+  line-height: 1.6;
+}
+
+.banner__buttons .button {
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 1.4rem 3.6rem;
+  font-size: 1.4rem;
+  border-radius: 6px;
+}
+
+/* ---------- PRODUCT CARDS ---------- */
+.card-wrapper {
+  transition: transform 0.25s ease;
+}
+
+.card-wrapper:hover {
+  transform: translateY(-4px);
+}
+
+.card {
+  overflow: hidden;
+  border-radius: 8px;
+  transition: box-shadow 0.25s ease;
+}
+
+.card:hover {
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+.card__media .media img {
+  transition: transform 0.4s ease;
+}
+
+.card:hover .card__media .media img {
+  transform: scale(1.04);
+}
+
+.card__heading a {
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+/* Sale badge */
+.badge {
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+}
+
+/* ---------- PRODUCT PAGE ---------- */
+.product__title h1,
+.product__title .h1,
+.product__title h2,
+.product__title .h2 {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+}
+
+/* Price styling */
+.price-item--regular {
+  font-weight: 700;
+}
+
+.price-item--sale {
+  font-weight: 700;
+  color: #c0392b;
+}
+
+.price--large .price-item {
+  font-size: 2.4rem;
+}
+
+/* Emoji benefits - make them look professional */
+.emoji-benefits-container {
+  padding: 1.6rem 2rem;
+  background: rgb(var(--color-background));
+  border: 1px solid rgba(var(--color-foreground), 0.08);
+  border-radius: 8px;
+}
+
+.emoji-benefits-container h5 {
+  margin: 0.4rem 0;
+  font-weight: 500;
+  font-size: 1.4rem;
+  color: rgb(var(--color-foreground));
+  line-height: 1.8;
+}
+
+/* Payment badges */
+.product__payment-badges {
+  opacity: 0.7;
+}
+
+/* Estimated shipping */
+.estimated-shipping {
+  font-size: 1.3rem;
+  color: rgba(var(--color-foreground), 0.7);
+}
+
+/* ---------- TRUST / ICON BAR ---------- */
+.multicolumn-card {
+  text-align: center;
+}
+
+.multicolumn-card h3 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.multicolumn-card p {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  color: rgba(var(--color-foreground), 0.7);
+}
+
+/* ---------- TESTIMONIALS ---------- */
+.testimonial-card {
+  padding: 2.4rem;
+  border-radius: 12px;
+  transition: box-shadow 0.3s ease;
+}
+
+.testimonial-card:hover {
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+}
+
+.testimonial-card__stars {
+  font-size: 1.5rem;
+  letter-spacing: 0.15em;
+}
+
+.testimonial-card__author {
+  font-weight: 600;
+  font-size: 1.3rem;
+  letter-spacing: 0.02em;
+}
+
+.testimonial-card h3 {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+/* ---------- NEWSLETTER ---------- */
+.newsletter-form__field-wrapper {
+  max-width: 44rem;
+  margin: 0 auto;
+}
+
+.newsletter-form__field-wrapper .field__input {
+  min-height: 5rem;
+  border-radius: 6px;
+  font-size: 1.5rem;
+}
+
+.newsletter-form__button {
+  min-height: 5rem;
+  border-radius: 6px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+/* ---------- MULTIROW / IMAGE WITH TEXT ---------- */
+.multirow .grid {
+  gap: 4rem;
+}
+
+.multirow .multirow__inner {
+  align-items: center;
+}
+
+/* Caption labels */
+.caption-with-letter-spacing {
+  font-weight: 600;
+  color: rgba(var(--color-foreground), 0.5);
+}
+
+/* ---------- COLLAPSIBLE CONTENT ---------- */
+.accordion summary {
+  font-weight: 600;
+  font-size: 1.5rem;
+  padding: 1.6rem 0;
+  border-bottom: 1px solid rgba(var(--color-foreground), 0.08);
+  transition: color 0.2s ease;
+}
+
+.accordion summary:hover {
+  color: rgb(var(--color-foreground));
+}
+
+.accordion .accordion__content {
+  padding: 1.2rem 0 2rem;
+  line-height: 1.7;
+}
+
+/* ---------- COMPARISON TABLE ---------- */
+.comparison-table th,
+.comparison-table td {
+  padding: 1.2rem 1.6rem;
+}
+
+/* ---------- FOOTER ---------- */
+.footer {
+  border-top: none;
+}
+
+.footer-block__heading {
+  font-weight: 600;
+  font-size: 1.4rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+}
+
+.footer-block__details-content .link {
+  font-size: 1.4rem;
+  transition: opacity 0.2s ease;
+}
+
+.footer-block__details-content .link:hover {
+  opacity: 0.7;
+}
+
+.footer__content-bottom {
+  border-top: 1px solid rgba(var(--color-foreground), 0.1);
+  padding-top: 2rem;
+  margin-top: 2rem;
+}
+
+.footer__brand-info .rte {
+  font-size: 1.3rem;
+  line-height: 1.7;
+  opacity: 0.8;
+}
+
+/* ---------- CART DRAWER ---------- */
+.cart-drawer {
+  border-radius: 0;
+}
+
+.cart-drawer__inner {
+  padding: 2rem;
+}
+
+.cart-item__name {
+  font-weight: 600;
+}
+
+/* ---------- FORMS & INPUTS ---------- */
+.field__input,
+.select__select,
+.customer .field input,
+.customer .field textarea {
+  font-size: 1.5rem;
+  border-radius: 6px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.field__input:focus-visible,
+.select__select:focus-visible {
+  box-shadow: 0 0 0 2px rgba(201, 169, 110, 0.3);
+}
+
+/* ---------- BREADCRUMBS ---------- */
+.breadcrumbs {
+  font-size: 1.2rem;
+  letter-spacing: 0.02em;
+  color: rgba(var(--color-foreground), 0.5);
+}
+
+/* ---------- MOBILE RESPONSIVE ---------- */
+@media screen and (max-width: 749px) {
+  .banner__heading {
+    font-size: 2.4rem;
+    line-height: 1.2;
+  }
+
+  .banner__text span {
+    font-size: 1.4rem;
+  }
+
+  .banner__buttons .button {
+    padding: 1.2rem 2.4rem;
+    font-size: 1.3rem;
+    width: auto;
+  }
+
+  .product-form__submit {
+    min-height: 5rem;
+    font-size: 1.5rem;
+  }
+
+  .price--large .price-item {
+    font-size: 2rem;
+  }
+
+  .page-width {
+    padding: 0 1.6rem;
+  }
+
+  /* Stack icon bar gracefully on mobile */
+  .multicolumn-card {
+    padding: 1.6rem;
+  }
+
+  /* Better card spacing on mobile */
+  .card-wrapper {
+    margin-bottom: 1.2rem;
+  }
+
+  .card-wrapper:hover {
+    transform: none;
+  }
+
+  /* Better newsletter on mobile */
+  .newsletter-form__field-wrapper {
+    max-width: 100%;
+  }
+
+  /* Testimonials mobile */
+  .testimonial-card {
+    padding: 2rem 1.6rem;
+  }
+}
+
+@media screen and (max-width: 989px) {
+  .header {
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+  }
+}
+
+/* ---------- LOADING & TRANSITIONS ---------- */
+.scroll-trigger.animate--slide-in {
+  transition-duration: 0.6s;
+  transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* Smooth image loading */
+img {
+  transition: opacity 0.3s ease;
+}
+
+img[loading="lazy"] {
+  opacity: 0;
+}
+
+img.loaded,
+img:not([loading="lazy"]) {
+  opacity: 1;
+}
+
+/* ---------- SELECTION & FOCUS ---------- */
+::selection {
+  background-color: rgba(201, 169, 110, 0.2);
+  color: #1a1a2e;
+}
+
+/* Better focus states */
+*:focus-visible {
+  outline: 2px solid rgba(201, 169, 110, 0.6);
+  outline-offset: 2px;
+}
+
+/* ---------- SCROLLBAR ---------- */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f8f7f4;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c9a96e;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b89456;
+}
+
+/* ---------- SECTION SPACING  ---------- */
+.section-template--main + .section-template--main {
+  margin-top: 0;
+}
+
+/* Prevent overly tight section stacking */
+.shopify-section + .shopify-section {
+  margin-top: 0;
+}
+
+/* ---------- MISC POLISH ---------- */
+
+/* Links */
+a {
+  transition: color 0.2s ease, opacity 0.2s ease;
+}
+
+/* Subtle separator lines */
+.header-wrapper--border-bottom {
+  border-bottom: 1px solid rgba(var(--color-foreground), 0.06);
+}
+
+/* Remove any leftover garish borders */
+.content-container {
+  border-color: rgba(var(--color-foreground), 0.06);
+}
