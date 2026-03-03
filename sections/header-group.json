@@ -25,22 +25,22 @@
       "type": "header",
       "settings": {
         "sticky_header_type": "on-scroll-up",
-        "show_line_separator": true,
+        "show_line_separator": false,
         "color_scheme": "background-1",
         "logo_link": "/",
         "logo_position": "middle-left",
         "menu": "main-menu",
         "menu_type_desktop": "dropdown",
         "highlight_active_link": true,
-        "highlighted_link_color_scheme": "background-1",
+        "highlighted_link_color_scheme": "scheme-5",
         "mobile_menu_title": "Menu",
         "secondary_menu": "",
         "menu_color_scheme": "background-1",
         "mobile_logo_position": "center",
         "display_search": true,
         "margin_bottom": 0,
-        "padding_top": 20,
-        "padding_bottom": 20
+        "padding_top": 24,
+        "padding_bottom": 24
       }
     }
   },
