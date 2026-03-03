@@ -1,4 +1,4 @@
-﻿{
+{
   "sections": {
     "ds_slideshow_jhiiyq": {
       "type": "ds-slideshow",
@@ -16,7 +16,7 @@
             "box_align": "middle-center",
             "show_text_box": false,
             "text_alignment": "center",
-            "image_overlay_opacity": 45,
+            "image_overlay_opacity": 40,
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
@@ -27,7 +27,7 @@
             "image": "shopify://shop_images/banner2.jpg",
             "heading": "Engineered for Every Moment",
             "heading_size": "h1",
-            "subheading": "From morning routines to outdoor adventures \u2014 our speakers deliver rich, immersive sound wherever you go.",
+            "subheading": "From morning routines to outdoor adventures — our speakers deliver rich, immersive sound wherever you go.",
             "button_label": "Explore Collection",
             "link": "shopify://products/mini-retro-white-noise-bluetooth-speaker",
             "button_style_secondary": false,
@@ -49,7 +49,7 @@
         "slide_height": "medium",
         "slider_visual": "counter",
         "auto_rotate": true,
-        "change_slides_speed": 6,
+        "change_slides_speed": 5,
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand",
         "color_scheme": "background-1"
@@ -124,7 +124,7 @@
             "image": "shopify://shop_images/homepage1.jpg",
             "caption": "PORTABLE AUDIO",
             "heading": "Your Music, Anywhere, Anytime",
-            "text": "<p>Experience the freedom of music on the go. Our portable speaker is lightweight, sleek, and packed with features \u2014 long battery life, crystal-clear audio, and premium build quality. Your perfect music companion.</p>",
+            "text": "<p>Experience the freedom of music on the go. Our portable speaker is lightweight, sleek, and packed with features — long battery life, crystal-clear audio, and premium build quality. Your perfect music companion.</p>",
             "button_label": "Shop Now",
             "button_link": "shopify://products/mini-retro-white-noise-bluetooth-speaker"
           }
@@ -135,7 +135,7 @@
             "image": "shopify://shop_images/homepage2.jpg",
             "caption": "POWERFUL PERFORMANCE",
             "heading": "Small Device, Big Sound",
-            "text": "<p>Don\u2019t let the size fool you \u2014 our portable speaker delivers powerful, room-filling sound with stunning clarity. Support for all major Bluetooth codecs, designed for audiophiles and casual listeners alike.</p>",
+            "text": "<p>Don’t let the size fool you — our portable speaker delivers powerful, room-filling sound with stunning clarity. Support for all major Bluetooth codecs, designed for audiophiles and casual listeners alike.</p>",
             "button_label": "Learn More",
             "button_link": "shopify://products/mini-retro-white-noise-bluetooth-speaker"
           }
@@ -180,7 +180,7 @@
           "type": "column",
           "settings": {
             "title": "Exceeded My Expectations",
-            "text": "<p>The sound quality is incredible for such a compact speaker. I use it daily during my morning routine and when I\u2019m working out. Easily the best portable speaker I\u2019ve owned.</p>",
+            "text": "<p>The sound quality is incredible for such a compact speaker. I use it daily during my morning routine and when I’m working out. Easily the best portable speaker I’ve owned.</p>",
             "author": "Sarah L."
           }
         },
@@ -188,7 +188,7 @@
           "type": "column",
           "settings": {
             "title": "Perfect Gift Purchase",
-            "text": "<p>Bought this as a gift and ended up ordering one for myself. The retro design is charming and the Bluetooth connection is rock-solid. Fast shipping too \u2014 arrived before the estimated date.</p>",
+            "text": "<p>Bought this as a gift and ended up ordering one for myself. The retro design is charming and the Bluetooth connection is rock-solid. Fast shipping too — arrived before the estimated date.</p>",
             "author": "Daniel M."
           }
         },
@@ -241,7 +241,7 @@
         "paragraph_jCxPHJ": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Subscribe to get early access to new products, exclusive deals, and insider tips \u2014 delivered straight to your inbox.</p>"
+            "text": "<p>Subscribe to get early access to new products, exclusive deals, and insider tips — delivered straight to your inbox.</p>"
           }
         },
         "email_form_enPNHt": {

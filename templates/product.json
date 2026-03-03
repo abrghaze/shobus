@@ -1,4 +1,4 @@
-﻿{
+{
   "sections": {
     "main": {
       "type": "main-product",
@@ -10,7 +10,7 @@
             "title_alignment": "left",
             "uppercase_title": false,
             "margin_top": 0,
-            "margin_bottom": 3
+            "margin_bottom": 0
           }
         },
         "rating_stars_KqJMmE": {
@@ -24,7 +24,7 @@
             "size": 14,
             "alignment": "flex-start",
             "margin_top": 0,
-            "margin_bottom": 12
+            "margin_bottom": 9
           }
         },
         "price": {
@@ -34,8 +34,8 @@
             "price_color": "text",
             "compare_price_color": "accent-1",
             "hide_sale_badge": false,
-            "margin_top": 15,
-            "margin_bottom": 15
+            "margin_top": 21,
+            "margin_bottom": 21
           }
         },
         "variant_picker": {
@@ -52,9 +52,9 @@
         "emoji_benefits_xFGiTn": {
           "type": "emoji_benefits",
           "settings": {
-            "benefits": "<h5>\u2713 Premium Build Quality \u2014 Built to Last</h5><h5>\u2713 Crystal-Clear Sound \u2014 Studio-Grade Audio</h5><h5>\u2713 Portable Design \u2014 Music Wherever You Go</h5>",
-            "margin_top": 15,
-            "margin_bottom": 15
+            "benefits": "<h5>✓ Premium Build Quality — Built to Last</h5><h5>✓ Crystal-Clear Sound — Studio-Grade Audio</h5><h5>✓ Portable Design — Music Wherever You Go</h5>",
+            "margin_top": 21,
+            "margin_bottom": 21
           }
         },
         "quantity_selector": {
@@ -95,8 +95,8 @@
             "option_4_percentage_off_text": "",
             "option_4_fixed_amount_off": "",
             "option_4_compare_price": "compare_price",
-            "margin_top": 15,
-            "margin_bottom": 15
+            "margin_top": 21,
+            "margin_bottom": 21
           }
         },
         "buy_buttons": {
@@ -116,8 +116,8 @@
           "type": "payment_badges",
           "settings": {
             "enabled_payment_types": "american_express, apple_pay, google_pay, klarna, master, paypal, shopify_pay, visa",
-            "margin_top": 6,
-            "margin_bottom": 6
+            "margin_top": 9,
+            "margin_bottom": 9
           }
         },
         "estimated_shipping_jccxdG": {
@@ -126,14 +126,14 @@
             "display_icon": true,
             "icon_size": "small",
             "icon_alignment": "middle",
-            "message": "<p>Estimated delivery: <strong>[start_date]</strong> \u2013 <strong>[end_date]</strong></p>",
+            "message": "<p>Estimated delivery: <strong>[start_date]</strong> – <strong>[end_date]</strong></p>",
             "min_shipping_days": 7,
             "max_shipping_days": 14,
             "date_format": "day_mm_dd",
             "days_labels": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday",
             "months_labels": "January, February, March, April, May, June, July, August, September, October, November, December",
-            "margin_top": 15,
-            "margin_bottom": 15
+            "margin_top": 21,
+            "margin_bottom": 21
           }
         },
         "reviews_wbqVgr": {
@@ -143,13 +143,13 @@
             "star_color": "#c9a96e",
             "avatar_alignment": "top",
             "author_1": "Sarah L.",
-            "text_1": "<p>The sound quality blew me away for such a compact device. I\u2019ve been using it every day for the past month and the battery still lasts all day. Fantastic build quality \u2014 feels premium in hand. Highly recommended!</p>",
+            "text_1": "<p>The sound quality blew me away for such a compact device. I’ve been using it every day for the past month and the battery still lasts all day. Fantastic build quality — feels premium in hand. Highly recommended!</p>",
             "author_2": "Marcus T.",
             "text_2": "<p>Bought this for my partner as a gift. The retro design is gorgeous and the Bluetooth pairs instantly. We ended up ordering a second one for the kitchen. Shipping was quick and packaging was excellent.</p>",
             "author_3": "Jessica R.",
-            "text_3": "<p>I\u2019ve tried several portable speakers and this one stands out. Clean sound, great bass response, and it looks beautiful on my desk. Customer support was also very helpful when I had a setup question.</p>",
-            "margin_top": 18,
-            "margin_bottom": 18
+            "text_3": "<p>I’ve tried several portable speakers and this one stands out. Clean sound, great bass response, and it looks beautiful on my desk. Customer support was also very helpful when I had a setup question.</p>",
+            "margin_top": 21,
+            "margin_bottom": 21
           }
         }
       },
@@ -214,7 +214,7 @@
           "settings": {
             "heading": "Shipping & Returns",
             "icon": "none",
-            "row_content": "<p><strong>Shipping:</strong> Free standard shipping on orders over $50. Express shipping available.<br><strong>Returns:</strong> 30-day hassle-free return policy. If you\u2019re not completely satisfied, contact us for a full refund.<br><strong>Warranty:</strong> 1-year manufacturer warranty included.</p>",
+            "row_content": "<p><strong>Shipping:</strong> Free standard shipping on orders over $50. Express shipping available.<br><strong>Returns:</strong> 30-day hassle-free return policy. If you’re not completely satisfied, contact us for a full refund.<br><strong>Warranty:</strong> 1-year manufacturer warranty included.</p>",
             "page": ""
           }
         },
