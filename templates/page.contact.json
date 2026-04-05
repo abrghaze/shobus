@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -48,7 +57,7 @@
       "settings": {
         "divider_shape": "diagonal",
         "divider_color_top": "#FFFFFF",
-        "divider_color_bottom": "#1a1a2e",
+        "divider_color_bottom": "#000000",
         "padding_top_desktop": 0,
         "padding_bottom_desktop": 40,
         "padding_top_mobile": 40,
@@ -68,11 +77,11 @@
         "color_scheme": "custom",
         "padding_top": 32,
         "padding_bottom": 32,
-        "custom_colors_background": "#1a1a2e",
+        "custom_colors_background": "#000000",
         "custom_gradient_background": "",
-        "custom_colors_text": "#f8f7f4",
-        "custom_colors_solid_button_background": "#c9a96e",
-        "custom_colors_solid_button_text": "#1a1a2e"
+        "custom_colors_text": "#fdfbf7",
+        "custom_colors_solid_button_background": "#50e6f5",
+        "custom_colors_solid_button_text": "#ffffff"
       }
     }
   },

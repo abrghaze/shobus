@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "banner": {
@@ -38,7 +47,7 @@
         "collection_np8g8k"
       ],
       "settings": {
-        "heading": "Our Collection",
+        "heading": "Your best relax companion!",
         "heading_size": "h2",
         "desktop_layout": "left",
         "mobile_layout": "collage",
@@ -57,7 +66,7 @@
         "heading_qEJMGh": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Quality You Can Trust</p>",
+            "heading": "<p>Why You’ll Love It</p>",
             "heading_size": "h2"
           }
         },
@@ -91,11 +100,11 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52,
-        "custom_colors_background": "#1a1a2e",
+        "custom_colors_background": "#000000",
         "custom_gradient_background": "",
-        "custom_colors_text": "#f8f7f4",
-        "custom_colors_solid_button_background": "#c9a96e",
-        "custom_colors_solid_button_text": "#1a1a2e"
+        "custom_colors_text": "#ffffff",
+        "custom_colors_solid_button_background": "#ffffff",
+        "custom_colors_solid_button_text": "#000000"
       }
     },
     "video_G4qDA6": {
@@ -117,8 +126,8 @@
       "type": "main-collection-product-grid",
       "settings": {
         "products_per_page": 20,
-        "columns_desktop": 4,
-        "color_scheme": "background-1",
+        "columns_desktop": 3,
+        "color_scheme": "scheme-1",
         "product_cards_stretch": true,
         "image_ratio": "square",
         "image_shape": "default",
